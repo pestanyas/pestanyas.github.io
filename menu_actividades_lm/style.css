@@ -1,0 +1,26 @@
+/* He copiado el estilo del ejemplo que se subió */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    background-color: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.enlaces{
+    background-color: #005a9e;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a{
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
