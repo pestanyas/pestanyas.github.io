@@ -1,9 +1,15 @@
 h1{
     text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    font-family: Arial, sans-serif;
 }
 
 table{
     margin: auto;
+    font-family: Arial, sans-serif;
     background-color: #EDEDED;
     border: 1px;
     border-style: dotted;
@@ -23,6 +29,10 @@ td{
     border-style: solid;
     border-color: black;
     border-radius: 5px;
+}
+
+td:hover{
+    text-decoration: underline;
 }
 
 .dia{
