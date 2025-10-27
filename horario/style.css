@@ -1,3 +1,66 @@
+h1{
+    text-align: center;
+}
+
 table{
-    align-items: center;
+    margin: auto;
+    background-color: #EDEDED;
+    border: 1px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    empty-cells: hide;
+}
+
+
+td{
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.dia{
+    background-color: white;
+}
+
+.hora{
+    background-color: white;
+}
+
+.prog{
+    background-color: #F7A594;
+}
+
+.sinf{
+    background-color: #F7E894;
+}
+
+.lmsgi{
+    background-color: #94F7EB;
+}
+
+.endes{
+    background-color: #F7C294;
+}
+
+.ipe{
+    background-color: #f794e8;
+}
+
+.badat{
+    background-color: #94F7B3;
+}
+
+.daspgs{
+    background-color: #94B8F7;
+}
+
+.sasp{
+    background-color: #DE94F7;
 }
