@@ -1,21 +1,25 @@
 body {
-    background-image: url(imagenes/fondo.jpg); /* https://www.w3schools.com/css/css_background_image.asp */
-    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url(imagenes/fondo.jpg);
+    /* https://www.w3schools.com/css/css_background_image.asp */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.imagenprincipal{
-    height: 50%; /* https://www.w3schools.com/css/css_dimension.asp */
+.imagenprincipal {
+    height: 50%;
+    /* https://www.w3schools.com/css/css_dimension.asp */
     width: 50%;
-    float: right; /* https://www.w3schools.com/css/css_float.asp */
-    border-radius: 20px; /* https://www.w3schools.com/css/css3_images.asp */
+    float: right;
+    /* https://www.w3schools.com/css/css_float.asp */
+    border-radius: 20px;
+    /* https://www.w3schools.com/css/css3_images.asp */
 }
 
-.chef{
+.chef {
     height: 200px;
     width: 200px;
 }
 
-div{
+div {
     border-style: hidden;
     border-radius: 20px;
     margin: 10px 10px 10px 10px;
@@ -23,27 +27,28 @@ div{
     background-color: #FCDFC2;
 }
 
-.intro{
+.intro {
     text-align: center;
 }
 
-.intro::after{ /* https://www.w3schools.com/css/css_float_clear.asp */
+.intro::after {
+    /* https://www.w3schools.com/css/css_float_clear.asp */
     content: "";
     clear: both;
     display: table;
 }
 
-.ingredientes{
+.ingredientes {
     text-align: left;
 }
 
-.ingredientes::after{
+.ingredientes::after {
     content: "";
     clear: both;
     display: table;
 }
 
-#titulo{
+#titulo {
     font-family: cursive;
     font-style: oblique;
 }
